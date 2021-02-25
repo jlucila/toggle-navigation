@@ -1,0 +1,39 @@
+
+/*Andy Bell Reset Hybrid*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body,
+h1, h2, h3, h4,
+p, ul, ol, dl,
+li, dd,
+figure, figcaption, blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+    font-size: 16px;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+article>*+* {
+	margin-top: 1em;
+}
+
+input, button,
+textarea, select {
+	font: inherit;
+}
